@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo|Nanum+Pen+Script');
+
+*{
+    font-family: 'Nanum Pen Script', cursive;
+    margin: 0;
+}
+#landing-container{
+    color: #ffffff;
+    width: 100%;
+    height: 677px;
+    background-image: url('note.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+
+  h2{
+    font-size: 50px;
+}
+/* h1{
+    text-align: center;
+    line-height: 550px;
+    font-size: 100px;
+} */
+
+
+.title {
+    width: 40%;
+    margin: 100px auto 50px auto;
+}
+.title h1 {
+  height: 100px;
+  width: 80%;
+  line-height: 100px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+  box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+}
+#text-align:center {
+height: 100px;
+width: 100%;
+line-height: 100px;
+background-color: #ffffff;
+color: #444444;
+text-align: center;
+-webkit-box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+-moz-box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+}
+#about-container .abouts{
+    margin-top: 50px;
+}
+#about-container .about{
+    width: 60%;
+    margin:0 auto;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+#about-container .about .question{
+    line-height: 2.5em;
+    margin-left : 20px;
+}
+#about-container .about .answer
+.answer{
+    font-size: 30px;
+}
+.ic{
+    width: 150px;
+    height: 150px;
+}
+#interest-container .interests{
+    width:  100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+    
+#interest-container .interest{
+    width:  300px;
+    display: flex;
+    align-items: center;
+    flex-direction:  column;
+    justify-content: center;
+    margin: 10px;
+}
+#lessons-container #lessons {
+    display: flex;
+}
+.answer {
+    flex: 1;
+}
+.desc {
+    flex: 1;
+}
+#copyright{
+    font-family: nanum;
+
+}
+footer{
+    position: relative;
+    top: 150px;
+    height: 6em;
+    line-height: 6em;
+    margin: 0;
+    background-color: rgba(255, 102, 0, 0.144);
+    text-align: center;
+}
+#copyrigh{
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 20px;
+    float: right;
+}
+.scale {width:380px; height:310px; overflow:hidden;}
+/*overflow:hidden을 선언해줘야 확대 시 이미지가 밖으로 넘치지 않아요!*/
+.scale img { transform:scale(1); transition:transform 0.5s linear;}
+.scale:hover img { 
+  transform:scale(1.1);             /*  default */
+  -webkit-transform:scale(1.1);     /*  크롬 */
+  -moz-transform:scale(1.1);       /* FireFox */
+  -o-transform:scale(1.1);           /* Opera */
+}
+/* 효과 출처:https://keum2.tistory.com/9*/
