@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>happy birthday jay~!!</title>
+    </head>
+    <style>
+        body
+        {
+            background-image:url(balloons.jpg);
+        }
+    </style>
+    <body>
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    
+
+<audio id="audio" autoplay>
+
+<source src="music.mp3">
+
+</audio>
+<style>
+    #hello
+    {
+        margin: 0 auto;
+    }
+</style>
+<div id="hi">
+<div id="hello"><span style="color:hotpink"><H2>정우야 생일축하해!!</H2></span></div>
+        <HR>
+    <div id="hello"><span style="color:mediumspringgreen">선물을 받으려면 아래 선물상자를 누르세요.</span></div>
+    </div>
+        <script type="text/javascript">
+            state = 0;
+            
+            
+            
+            function changeImage() {
+            
+            
+            
+                if ( state == 0 ) {
+            
+                    state = 1;
+            
+                    document.getElementById('image').src ="open.jpg";
+            
+                }
+            
+                else {
+            
+                    state = 0;
+            
+                    document.getElementById('image').src ="open.jpg";
+            
+                }
+            
+            }
+            
+            </script>
+            
+            
+            <a href="gift.jpg" download> <button><img id="image" onclick="changeImage()" border=0" src="close.jpg" width="200" height="200"/></button></a>
+        
+    </body>
+</html>
